@@ -1,0 +1,214 @@
+#blockbig5 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#block5{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 80px;
+}
+#topline{
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#toplineleft{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+#toplineleft > h1{
+    color: #FFF;
+    font-family: Helvetica,sans-serif;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46.2px; /* 118.462% */
+    letter-spacing: 1px;
+}
+#toplineright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 10vh;
+}
+#toplineright nav{
+    display: flex;
+    gap: 10px;
+    padding-right: 80px;
+}
+#toplineright a:link, a:visited{
+    color: inherit;
+    text-decoration: none;
+    cursor: auto;
+}
+#toplineright  a:hover{
+    border: 1px solid #A962FF;
+}
+#toplineright  a:active{
+    border: 1px solid #A962FF;
+}
+#b{
+    width: 64px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #111;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica,sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#b2, #b5{
+    width: 62px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #111;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#b3{
+    width: 98px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #111;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica,sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#b4{
+    width: 83px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #111;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica,sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#mainblock{
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+#nainleft{
+    width: 50%;
+    height: 50vh;
+}
+#nainleft > img{
+    width: 100%;
+    height: 100%;
+}
+#mainright{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 50px;
+    background: #1a1a1a;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+#mainright > h1{
+    width: 30vw;
+    color: #FFF;
+    font-family: Helvetica,sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#mainright > p{
+    color: #A962FF;
+    font-family: Helvetica,sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.3px;
+    margin: 0;
+
+}
+#mainright > img{
+    width: 240px;
+    height: 52.568px;
+    flex-shrink: 0;
+    margin: 0;
+}
+#bottomline{
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(38, 31, 38, 0.30);
+}
+.img{
+    width: 100px;
+    height: 30px;
+    flex-shrink: 0;
+}
+.img1{
+    width: 39px;
+    height: 46px;
+    flex-shrink: 0;
+}
+.img2{
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+}
+.img3{
+    width: 100px;
+    height: 30px;
+    flex-shrink: 0;
+}
